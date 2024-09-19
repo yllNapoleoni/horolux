@@ -1,16 +1,16 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 .title{
     font-size: 50px;
     text-align: center;
-    color: white;
+    color: darkgreen;
 }
 .nav li{
     display: inline; 
 
 }
-.nav a {
+.nav a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -18,11 +18,17 @@ body{
     margin: 50px;
 }
 .nav{
-    background-color: grey;
+    background-color: darkgreen;
     padding: 5px;
     text-align: center;
 }
 .nav a:hover{
     color: black;
     margin: 50px;
+}
+img{
+    margin-top: -40px;
+    margin-left: 500px;
+    width: 100hv;
+
 }
