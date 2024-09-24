@@ -27,8 +27,29 @@ body{
     margin: 50px;
 }
 img{
-    margin-top: -40px;
-    margin-left: 500px;
-    width: 100hv;
-
+    margin-top: -20px;
+    margin-left: 0px;
+    width: 300px;
+    height: 300px;
+    padding-top: 7%;
+}
+.images{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    display: inline;
+}
+.price{
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+}
+.name{
+    width: 300px;
+    text-align: center;
+    font-weight: bolder;
+}
+.cart1{
+    width: 300px;
+   
 }
