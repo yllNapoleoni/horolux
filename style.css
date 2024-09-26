@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: lightgray;
 }
 .title{
     font-size: 50px;
@@ -32,6 +32,7 @@ img{
     width: 300px;
     height: 300px;
     padding-top: 7%;
+    border-radius: 10px;
 }
 .images{
     border: 2px solid black;
@@ -52,4 +53,45 @@ img{
 .cart1{
     width: 300px;
    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.cart{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    background-color: #C0EBA6;
+    border-radius: 10px;      
+}
+.headercard{
+    text-align: center;
+}
+.price{
+    font-weight: bold;
+    text-align: center;
+}
+.foot{
+    margin-top: 300px;
+    color: white;
+    padding: 50px;
+}
+.footer{
+    background-color: black;
+    height: 100px;
+    padding-bottom: 40px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.cart2{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    background-color: #6A9AB0;
+    border-radius: 10px;  
 }
